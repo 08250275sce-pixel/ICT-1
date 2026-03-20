@@ -5,4 +5,4 @@ full_marks = 100
 print(type(full_marks)) # data type of  full marks is int
 full_marks = float (full_marks) # Type castng
 print(type(full_marks)) #data type of full marks is now float
-print (full_marks)
+print (full_marks) 
