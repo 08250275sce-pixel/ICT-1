@@ -26,9 +26,9 @@ print("Grade:", grade)
 
 # Pass/Fail check using logical operators
 if percentage >= 50 and math >= 35 and science >= 35 and english >= 35:
-    print("Status: Passed ✅")
+    print("Status: Passed ")
 else:
-    print("Status: Failed ❌")
+    print("Status: Failed ")
 
 # Remark for special cases using OR
 if math < 35 or science < 35 or english < 35:

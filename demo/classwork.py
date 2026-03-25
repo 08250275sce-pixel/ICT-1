@@ -6,5 +6,10 @@ addition = number1 + number2
 subtraction = number1 - number2
 multiplication = number1 * number2
 division = number1 / number2
+exponentiation = number1 ** number2
 print("kuzuzangpo", Name)
-print(addition, subtraction, multiplication, division)
+print("Addition:", addition,
+      "\nSubtraction:", subtraction,
+      "\nMultiplication:", multiplication,
+      "\nDivision:", division,
+      "\nExponentiation:", exponentiation)
