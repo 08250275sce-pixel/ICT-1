@@ -18,7 +18,7 @@ del my_list[-1]# delete it fronm specific using index
 print(my_list)
 my_repated_list.clear()
 print(my_repated_list)
-my_list[6] = "Hy"
+my_list[6] = "Hy" # replacing index 5 with the hy
 del my_list[5]
 my_list.insert(5,False)
 print (my_list)
