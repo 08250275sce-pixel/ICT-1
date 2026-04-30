@@ -20,4 +20,15 @@ my_set = set(li)
 print(my_set)
 for i in my_set:
     print(i)
-   
+
+tup = ("john Smith", "Jane Doe", "Alice Johnson")
+for x in tup:
+    print(x)
+
+set1 = {10,30,20}
+for x in set1:
+    print(x)
+
+BookDetails = dict({"Python Programing":"John Smith", "Python Fundamentals":"Alice Johnson", "Python Interviews Questions":"Jane Doe"})
+for key in BookDetails:
+    print(key,BookDetails[key])

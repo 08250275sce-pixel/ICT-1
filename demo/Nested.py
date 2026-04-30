@@ -15,6 +15,15 @@ for i in range(1,6):
 
 for i in range (6,0,-1):
     for j in range(i):
-        print("*",end = " ")
+        print("*", end = " ")
     print()
-      
+
+print ("Hellow", end =" ")
+print ("World")
+#What is a nested loop?
+
+#A nested loop means a loop inside another loop.
+# Outer loop runs first
+# Inner loop runs completely for each outer loop cycle
+#Outer loop = decides the number of rows / repetitions
+#Inner loop = decides the number of columns / actions inside

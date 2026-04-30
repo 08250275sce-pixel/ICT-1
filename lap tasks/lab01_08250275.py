@@ -19,7 +19,7 @@ name =  input("Enter the student Name:")
 age  = int(input("Enter the student age:"))
 grade = input("Enter the student Grade:")
 std_id = int(input("Enter the student id:"))
-# now we have to add name in the list and age grade and std_id tostd dictionary using append and add
+# now we have to add name in the list and age grade and std_id to std dictionary using append and add
 students_list.append(name) # this function will add the name in the list
 student_dict[name] = {'Age': age, "Grade": grade, "Student_id":std_id}# add the age grade and std id to std dict using key name fromlist
 
